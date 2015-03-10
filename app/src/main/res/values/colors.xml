@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="Twitter_blue">#c0deed</color>
+    <color name="my_fab_color">@color/transparent</color>
+
+</resources>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.layarapp.leyvapp" >
+    package="com.layarapp.androidapp" >
+
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -10,8 +11,9 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
+
         <activity
-            android:name=".activities.MainActivity"
+            android:name=".MainActivity"
             android:label="@string/app_name"
             android:theme="@android:style/Theme.Black.NoTitleBar" >
             <intent-filter>
@@ -26,9 +28,14 @@
             android:value="d219b1e8125202cabb4c6b0d38b5da9a850c9028" />
 
         <activity
-            android:name=".activities.TweetListActivity"
+            android:name="com.layarapp.androidapp.activities.TweetListActivity"
             android:label="@string/title_activity_tweet_list" >
         </activity>
+
+        <!--Google Maps API Key v2.0 -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCliENeI95o-nTnsqe05zm1nrF0TqqwHmU"/>
     </application>
 
 </manifest>
